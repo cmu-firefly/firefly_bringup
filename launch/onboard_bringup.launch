@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="firefly_mapping" type="onboard_mapping" name="onboard_mapping" output="screen"/>
+  <node pkg="firefly_telemetry" type="onboard_telemetry.py" name="onboard_telemetry" output="screen"/>
+</launch>
